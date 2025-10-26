@@ -1,0 +1,128 @@
+@charset "UTF";
+@font-face {
+    font-family: 'F1';
+    src: url('fonts/Akira\ Expanded\ Demo.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'normal';
+    src: url('fonts/Tokyo.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'padrao';
+    src: url('fonts/Weight.ttf')format('truetype');
+}
+
+
+:root {
+    --font-padrao1: 'padrao', Verdana ;
+    --font-padrao2: 'Arial';
+    --font-padrao3: 'normal';
+    --font-destaque: 'F1';
+    
+    --cor1: white;
+    --cor2: #15151E;
+    --corblack:black;
+    --cor3: #ff1e004f;
+    --cor4: #72706A;
+    --cor5: #FFB800;
+
+
+
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--corblack);
+    height: 100%;
+    background-image: url('imagens/ferrari_f1_2029-wallpaper-3840x2160.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    margin: 0px;
+    background-color: var(--cor3);
+    min-height: 140px;
+    
+
+}
+header > h1 {
+    margin: 0px;
+    text-align: center;
+    color: var(--corblack);
+    font-weight: normal;
+    font-family: var(--font-destaque);
+    padding-top: 20px;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    min-width: 10px;
+    
+
+}
+nav {
+    padding: 5px;
+    background-color: var(--cor1);
+    text-align: center;
+    
+}
+nav a {
+    font-family: var(--font-padrao1);
+    text-decoration: none;
+    color: var(--corblack);
+    font-size: 25px;
+    margin-left: 3px;
+    padding: 3px 30px 3px 30px;
+    border-radius: 7px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.26);
+}
+nav > a:hover {
+    transition-duration: 0.7s;
+    transform-origin: 0.5s;
+    color: var(--cor1);
+    background-color: var(--cor2);
+}
+
+#main-1 {
+    font-family: var(--font-padrao2);
+    color: white;
+    background-color: var(--corblack);
+    margin: auto;
+    max-width: 110%;
+    min-height: 800px;
+}
+.main-h2 {
+    font-family: var(--font-destaque);
+}
+
+
+.meio {
+    background-image: url('imagens/mclaren.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center center ;
+    height: 1000px;
+    
+}
+main {
+    background-color: bisque;
+    min-height: 800px;
+    
+    
+}
+.article1 {
+    padding: 20px;
+}
+img {
+    display: flex; 
+    max-width: 600px;
+    border-radius: 12px;
+    margin: auto;
+
+}
