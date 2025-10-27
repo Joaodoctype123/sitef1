@@ -59,14 +59,14 @@ header > h1 {
     font-weight: normal;
     font-family: var(--font-destaque);
     padding-top: 20px;
-    font-size: 70px;
+    font-size: 400%;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
-    min-width: 10px;
+    
     
 
 }
 nav {
-    padding: 5px;
+    padding: 2px;
     background-color: var(--cor1);
     text-align: center;
     
@@ -76,8 +76,8 @@ nav a {
     text-decoration: none;
     color: var(--corblack);
     font-size: 25px;
-    margin-left: 3px;
-    padding: 3px 30px 3px 30px;
+    
+    padding: 3px 26px 3px 26px;
     border-radius: 7px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.26);
 }
@@ -98,16 +98,18 @@ nav > a:hover {
 }
 .main-h2 {
     font-family: var(--font-destaque);
+
 }
 
 
 .meio {
     background-image: url('imagens/mclaren.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
     background-attachment: fixed;
     background-position: center center ;
-    height: 1000px;
+    height: 80vh;
+    
     
 }
 main {
@@ -120,9 +122,20 @@ main {
     padding: 20px;
 }
 img {
-    display: flex; 
-    max-width: 600px;
-    border-radius: 12px;
+    display: flex;
     margin: auto;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 7px;
+}
 
+.section-2 {
+    
+    padding: 20px;
+    height: 500px;
+}
+section h2 {
+    font-family: var(--font-destaque);
+    background-image: linear-gradient(to right, red, transparent );
+    padding: 10px;
 }
