@@ -95,6 +95,7 @@ nav > a:hover {
     margin: auto;
     max-width: 110%;
     min-height: 800px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.329);
 }
 .main-h2 {
     font-family: var(--font-destaque);
@@ -140,6 +141,10 @@ section h2 {
     background-image: linear-gradient(to right, #c70f12, transparent );
     padding: 10px;
     border-radius: 2px;
+}
+
+.section-1 {
+    box-shadow: 10px 10px 10px black;
 }
 .logo-f1{
     padding: 10px 0px 0px 0px;
