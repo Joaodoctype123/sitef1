@@ -52,14 +52,14 @@ header {
     
 
 }
-header > h1 {
+header  h1 {
     margin: 0px;
     text-align: center;
     color: var(--corblack);
     font-weight: normal;
     font-family: var(--font-destaque);
     padding-top: 20px;
-    font-size: 400%;
+    font-size: clamp(1.5rem, 7vw, 3rem);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
     
     
@@ -103,7 +103,7 @@ nav > a:hover {
 
 
 .meio {
-    background-image: url('imagens/mclaren.jpg');
+    background-image: url('imagens/man-redbull-f1.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -140,4 +140,8 @@ section h2 {
     background-image: linear-gradient(to right, #c70f12, transparent );
     padding: 10px;
     border-radius: 2px;
+}
+.logo-f1{
+    padding: 10px 0px 0px 0px;
+    max-width: 300px;
 }
