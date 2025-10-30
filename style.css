@@ -106,10 +106,10 @@ nav > a:hover {
 .meio {
     background-image: url('imagens/man-redbull-f1.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center center ;
-    height: 80vh;
+    height: 100vh;
     
     
 }
