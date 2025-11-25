@@ -155,9 +155,14 @@ section h2 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
     color: black;
     font-family: var(--font-destaque);
-    background-image: linear-gradient(to right, #c70f12, transparent );
+    background-image: linear-gradient(to left, #c70f12, transparent );
     padding: 10px;
     border-radius: 2px;
+    text-align: end;
+}
+h2#f2 {
+    background-image: linear-gradient(to right, #c70f12,        transparent ); 
+    text-align: start;
 }
 .section-1 {
     box-shadow: 10px 10px 10px black;
